@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fe7183eca6e5c241968a4e4a82fae11, type: 3}
   m_Name: EnemyRoster
   m_EditorClassIdentifier: Assembly-CSharp::EnemyRoster
-  enemies: []
+  enemies:
+  - {fileID: 11400000, guid: f11711d0e9ae56240a87f52ba0dd1a8b, type: 2}
+  - {fileID: 11400000, guid: 12c201929d6da1b469e2c49ecc6ff65b, type: 2}
+  - {fileID: 11400000, guid: 721ed953ccc62fc4b9b5ac7b0199b7e8, type: 2}
+  - {fileID: 11400000, guid: f913a23c0d765644889b2bc196aafde3, type: 2}
+  - {fileID: 11400000, guid: f72357df74d6614438fb79343d9e2d23, type: 2}
