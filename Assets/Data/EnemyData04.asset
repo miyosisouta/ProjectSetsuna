@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cfb71ea161d8674e99e1a1fa282b3cf, type: 3}
   m_Name: EnemyData04
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  enemyName: 
-  prefab: {fileID: 0}
-  reactionTimeEasy: 0
-  reactionTimeNormal: 0
-  reactionTimeHard: 0
+  enemyName: RedPound
+  prefab: {fileID: 5762902411667481585, guid: eb4cd575a95773b4d85efd8929fabc3e, type: 3}
+  reactionTimeEasy: 2.25
+  reactionTimeNormal: 2
+  reactionTimeHard: 1.75

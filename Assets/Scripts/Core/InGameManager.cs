@@ -10,8 +10,8 @@ public class InGameManager : MonoBehaviour
 
 
     [Header("ゲーム設定")]
-    //public EnemyRoster enemyRoster;           // エネミーの配列データだけ持つ
-    //public DifficultyData currentDifficulty;  // 現在の難易度
+    public EnemyRoster enemyRoster;           // エネミーの配列データだけ持つ
+    public DifficultyData currentDifficulty;  // 現在の難易度
 
     [Header("進行状態")]
     public int currentBattleIndex = 0;     // 現在何戦目か
@@ -33,10 +33,10 @@ public class InGameManager : MonoBehaviour
 
 
     /** 難易度設定 */
-    //public void SetDifficulty(DifficultyData difficulty)
-    //{
-    //    currentDifficulty = difficulty;
-    //}
+    public void SetDifficulty(DifficultyData difficulty)
+    {
+        currentDifficulty = difficulty;
+    }
 
 
     /** バトルの開始 */
@@ -48,10 +48,10 @@ public class InGameManager : MonoBehaviour
 
 
     /** 次のバトルへ進みたい */
-    //public void NextBattle()
-    //{
-    //    currentBattleIndex++;
-    //}
+    public void NextBattle()
+    {
+        currentBattleIndex++;
+    }
 
 
     /** すべて勝ったか */
@@ -62,8 +62,8 @@ public class InGameManager : MonoBehaviour
 
 
     /** エネミーを生成 */
-    //public EnemyData GetCurrentEnemy()
-    //{
-    //    return enemyRoster.enemies[currentBattleIndex];
-    //}
+    public EnemyData GetCurrentEnemy()
+    {
+        return enemyRoster.enemies[currentBattleIndex];
+    }
 }
