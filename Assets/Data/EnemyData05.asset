@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cfb71ea161d8674e99e1a1fa282b3cf, type: 3}
   m_Name: EnemyData05
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  enemyName: 
-  prefab: {fileID: 0}
-  reactionTimeEasy: 0
-  reactionTimeNormal: 0
-  reactionTimeHard: 0
+  enemyName: Lich
+  prefab: {fileID: 100048, guid: e283ef0891355e4449946bc14f73674c, type: 3}
+  reactionTimeEasy: 2
+  reactionTimeNormal: 1.8
+  reactionTimeHard: 1.5

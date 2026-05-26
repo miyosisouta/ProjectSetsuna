@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cfb71ea161d8674e99e1a1fa282b3cf, type: 3}
   m_Name: EnemyData02
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  enemyName: 
-  prefab: {fileID: 0}
-  reactionTimeEasy: 0
-  reactionTimeNormal: 0
-  reactionTimeHard: 0
+  enemyName: Turtle
+  prefab: {fileID: 1524411113276028, guid: e6049e0e7d0ebab42a32214d8e1ffe5c, type: 3}
+  reactionTimeEasy: 2.75
+  reactionTimeNormal: 2.3
+  reactionTimeHard: 2

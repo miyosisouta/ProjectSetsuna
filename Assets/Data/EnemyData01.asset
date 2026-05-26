@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cfb71ea161d8674e99e1a1fa282b3cf, type: 3}
   m_Name: EnemyData01
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  enemyName: 
-  prefab: {fileID: 0}
-  reactionTimeEasy: 0
-  reactionTimeNormal: 0
-  reactionTimeHard: 0
+  enemyName: Slime
+  prefab: {fileID: 1931298151966786, guid: 7337773c413055a4e8c679da9077d418, type: 3}
+  reactionTimeEasy: 3
+  reactionTimeNormal: 2.5
+  reactionTimeHard: 2.3

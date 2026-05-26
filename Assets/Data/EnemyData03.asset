@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cfb71ea161d8674e99e1a1fa282b3cf, type: 3}
   m_Name: EnemyData03
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  enemyName: 
-  prefab: {fileID: 0}
-  reactionTimeEasy: 0
-  reactionTimeNormal: 0
-  reactionTimeHard: 0
+  enemyName: Cactus
+  prefab: {fileID: 7427070853888570003, guid: a0d1abf93991c3243bcb06f58d8f9d81, type: 3}
+  reactionTimeEasy: 2.5
+  reactionTimeNormal: 2.1
+  reactionTimeHard: 1.8
